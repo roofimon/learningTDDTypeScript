@@ -1,5 +1,7 @@
 class Fizzbuzz {
   count(value: number): string {
-    return "1"
+    if(value == 1)
+      return "1";
+    return "2";
   }
 }

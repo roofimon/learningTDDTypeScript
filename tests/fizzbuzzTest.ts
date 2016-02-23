@@ -4,4 +4,9 @@ describe("Fizzbuzz", function() {
     let fizzbuzz = new Fizzbuzz();
     expect(fizzbuzz.count(1)).toEqual("1");
   });
+
+  it("should count 2", function() {
+    let fizzbuzz = new Fizzbuzz();
+    expect(fizzbuzz.count(2)).toEqual("2");
+  });
 });
