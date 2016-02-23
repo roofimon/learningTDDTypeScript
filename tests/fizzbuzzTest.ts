@@ -10,8 +10,28 @@ describe("Fizzbuzz", function() {
     expect(fizzbuzz.count(2)).toEqual("2");
   });
 
-  it("should be fizz", function() {
+  it("should count fizz", function() {
     let fizzbuzz = new Fizzbuzz();
     expect(fizzbuzz.count(3)).toEqual("fizz");
+  });
+
+  it("should count buzz", function() {
+    let fizzbuzz = new Fizzbuzz();
+    expect(fizzbuzz.count(5)).toEqual("buzz");
+  });
+
+  it("should count fizz", function() {
+    let fizzbuzz = new Fizzbuzz();
+    expect(fizzbuzz.count(6)).toEqual("fizz");
+  });
+
+  it("should count buzz", function() {
+    let fizzbuzz = new Fizzbuzz();
+    expect(fizzbuzz.count(10)).toEqual("buzz");
+  });
+
+  it("", function() {
+    let fizzbuzz = new Fizzbuzz();
+    expect(fizzbuzz.count(15)).toEqual("fizzbuzz");
   });
 });
