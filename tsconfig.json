@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es3",
+        "noImplicitAny": false,
+        "outDir": "built",
+        "rootDir": ".",
+        "sourceMap": false,
+        "watch": true
+    },
+    "files":[
+      "typings/jasmine/jasmine.d.ts",
+      "src/scripts/fizzbuzz.ts",
+      "tests/fizzbuzzTest.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
