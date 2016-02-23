@@ -1,6 +1,7 @@
+/// <reference path="../typings/jasmine/jasmine.d.ts" />
 describe("Fizzbuzz", function() {
   it("should count 1", function() {
-    var fizzbuzz = new Fizzbuzz()
-    expect(fizzbuzz.count(1)).toEqual("1")
+    let fizzbuzz = new Fizzbuzz();
+    expect(fizzbuzz.count(1)).toEqual("1");
   });
 });
